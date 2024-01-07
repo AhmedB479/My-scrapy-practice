@@ -24,7 +24,7 @@ python -m venv [folder name]
 ```
 ### To activate venv
 ```bash
-source venv/Scripts/activate
+venv/Scripts/activate
 ```
 ### To install scrapy
 ```bash
@@ -33,6 +33,10 @@ pip install scrapy
 ### To create new project
 ```bash
 scrapy startproject [projectname]
+```
+### To make spider make this in the spiders folder
+```bash
+scrapy genspider [spidername] [URL to scrape]
 ```
 ### To run and output spider -o to add, -O to overwrite (NOTE TO SELF MAKE SPIDER IN SPIDERS FOLDER)
 ```bash
